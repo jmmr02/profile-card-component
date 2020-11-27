@@ -1,73 +1,72 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-  background-color: hsl(185, 75%, 39%);
-  height: 100vh;
-  font-family: "Kumbh Sans", sans-serif;
-  color: hsl(229, 23%, 23%);
-  padding-top: 100px;
+	background-color: hsl(185, 75%, 39%);
+	height: 100vh;
+	font-family: "Kumbh Sans", sans-serif;
+	color: hsl(229, 23%, 23%);
+	padding-top: 100px;
 }
 
 .card-component {
-  margin: 30px auto 0;
-  width: 330px;
-  text-align: center;
-  background: white;
-  border-radius: 15px;
-  overflow: hidden;
-  padding-bottom: 15px;
+	margin: 30px auto 0;
+	width: 330px;
+	text-align: center;
+	background: white;
+	border-radius: 15px;
+	padding-bottom: 15px;
 }
 
 .statistics {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 40px;
-  margin: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 40px;
+	margin: 0;
 }
 
 .text-bold {
-  font-weight: 700;
-  font-size: 18px;
+	font-weight: 700;
+	font-size: 18px;
 }
 
 .text-small {
-  font-size: 14px;
+	font-size: 14px;
 }
 
 .text-gray {
-  color: hsl(0, 0%, 59%);
+	color: hsl(0, 0%, 59%);
 }
 
 .avatar {
-  border-radius: 50%;
-  border: 5px solid #ffffff;
-  /* pull the image to the top so it sits between the patterned and white background  */
-  margin-top: -60px;
+	border-radius: 50%;
+	border: 5px solid #ffffff;
+	/* pull the image to the top so it sits between the patterned and white background  */
+	margin-top: -60px;
 }
 
 .card-pattern {
-  width: 100%;
-  height: auto;
-  display: inline-block;
+	width: 100%;
+	height: auto;
+	display: inline-block;
 }
 
 .personal {
-  margin-top: 25px;
+	margin-top: 25px;
 }
 
 .name {
-  margin-right: 5px;
+	margin-right: 5px;
 }
 
 hr {
-  opacity: 0.4;
+	opacity: 0.4;
 }
 
 .stats {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
